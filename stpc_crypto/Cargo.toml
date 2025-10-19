@@ -1,0 +1,14 @@
+[package]
+name = "stpc_crypto"
+version = "0.1.0-alpha.0"
+edition = "2024"
+authors = ["Konstantin Gorshkov"]
+license = "GPL-3.0-or-later"
+
+[dependencies]
+ed25519-dalek = { version = "2.2", features = ["rand_core"] }
+pqcrypto-falcon = { version = "0.4", features = ["avx2", "neon"] }
+pqcrypto-traits = "0.3"
+rand = "0.8"
+stpc_core = { path = "../stpc_core" }
+zeroize = "1.8"

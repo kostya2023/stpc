@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "stpc_core",
+    "stpc_crypto",
+    "stpc_certs",
+    "stpc_crl",
+    "stpc_ocsp",
+    "stpc_encoding",
+    "stpc_time",
+    "stpc_logging",
+    "stpc_tool",
+    "stpc_test",
+]
+resolver = "2"
+

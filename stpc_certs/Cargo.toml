@@ -1,0 +1,11 @@
+[package]
+name = "stpc_certs"
+version = "0.1.0-alpha.0"
+edition = "2024"
+authors = ["Konstantin Gorshkov"]
+license = "GPL-3.0-or-later"
+
+[dependencies]
+stpc_core = { path = "../stpc_core" }
+stpc_encoding = { path = "../stpc_encoding" }
+rand = "0.8"
